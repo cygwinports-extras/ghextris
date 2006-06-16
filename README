@@ -1,0 +1,63 @@
+ghextris
+------------------------------------------
+Ghextris is a Python/Gnome reimplementation of the semi-free Xhextris by
+David Markley. The object of the game is basically the same as in Tetris;
+use the pieces that fall down from the top of the game area to construct
+fully filled lines, which will then disappear to make room for more pieces.
+The twist, as first introduced by Markley, is that the pieces are composed
+of hexagonal blocks, so your visualization skills will get an extra workout.
+
+Runtime requirements:
+  cygwin-1.5.18-1
+  gnome-python-2.10.0-1
+  pygtk2-2.6.3-1
+  python-2.4.1-1
+
+Canonical website:
+  http://mjr.iki.fi/software/ghextris.html
+
+Canonical download:
+  http://mjr.iki.fi/software/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ghextris-0.9.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./ghextris-0.9.0-X.sh all
+
+This will create:
+  /usr/src/ghextris-0.9.0-X-src.tar.bz2
+  /usr/src/ghextris-0.9.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/ghextris
+  /usr/share/applications/ghextris.desktop
+  /usr/share/doc/Cygwin/ghextris-0.9.0.README
+  /usr/share/doc/ghextris-0.9.0/ChangeLog
+  /usr/share/doc/ghextris-0.9.0/COPYING
+  /usr/share/doc/ghextris-0.9.0/INSTALL
+  /usr/share/doc/ghextris-0.9.0/README
+  /usr/share/games/ghextris/ghextris-icon.xpm
+  /usr/share/games/ghextris/ghextris.glade
+  /usr/share/games/ghextris/ghextris.png
+  /usr/share/games/ghextris/ghextris.py
+  /usr/share/locale/fi/LC_MESSAGES/ghextris.mo
+  /usr/share/man/man6/ghextris.6.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.9.0-1 -----
+Initial release for Cygwin.
+Patched to fix deprecation warnings.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

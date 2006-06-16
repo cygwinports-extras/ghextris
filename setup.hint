@@ -1,0 +1,10 @@
+category: Games Gnome
+requires: cygwin gnome-python2 pygtk2 python xorg-x11-base
+sdesc: "GNOME hexagonal tetris game"
+ldesc: "Ghextris is a Python/Gnome reimplementation of the semi-free
+Xhextris by David Markley. The object of the game is basically the same
+as in Tetris; use the pieces that fall down from the top of the game
+area to construct fully filled lines, which will then disappear to make
+room for more pieces. The twist, as first introduced by Markley, is that
+the pieces are composed of hexagonal blocks, so your visualization
+skills will get an extra workout."
