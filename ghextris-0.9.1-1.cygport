@@ -1,0 +1,11 @@
+DESCRIPTION="Tetris variant with hexagonal blocks"
+HOMEPAGE="http://mjr.iki.fi/software/ghextris.html"
+SRC_URI="http://mjr.iki.fi/software/${P}-1.tar.gz"
+
+src_compile() { :; }
+src_test() { :; }
+
+src_install() {
+	cd ${S}
+	./install.sh ${D}/usr /usr || error "install.sh failed"
+}
