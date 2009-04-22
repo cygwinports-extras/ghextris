@@ -8,18 +8,16 @@ The twist, as first introduced by Markley, is that the pieces are composed
 of hexagonal blocks, so your visualization skills will get an extra workout.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  python-2.5.1-1
-  python-gnome2-2.18.2-1
-  python-gnomecanvas2-2.18.2-1
-  python-gobject2-2.12.3-2
-  python-gtk2-2.10.4-2
+  python-2.5.4-10
+  python-gnome2-2.26.0-1
+  python-gnomecanvas2-2.26.0-1
+  python-gobject2-2.16.1-10
+  python-gtk2-2.14.1-1
 
 Build requirements:
   bash
-  coreutils
-  cygport
-  gettext-devel
+  cygport-0.9.6-1
+  gettext-devel-0.17-10
 
 Canonical website:
   http://mjr.iki.fi/software/ghextris.html
@@ -46,11 +44,9 @@ Files included in the binary package:
 
   /usr/bin/ghextris
   /usr/share/applications/ghextris.desktop
-  /usr/share/doc/Cygwin/ghextris-0.9.1.README
-  /usr/share/doc/ghextris-0.9.1/COPYING
-  /usr/share/doc/ghextris-0.9.1/ChangeLog
-  /usr/share/doc/ghextris-0.9.1/INSTALL
-  /usr/share/doc/ghextris-0.9.1/README
+  /usr/share/doc/ghextris/COPYING
+  /usr/share/doc/ghextris/ChangeLog
+  /usr/share/doc/ghextris/README
   /usr/share/games/ghextris/ghextris-icon.xpm
   /usr/share/games/ghextris/ghextris.glade
   /usr/share/games/ghextris/ghextris.png
@@ -62,12 +58,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.9.1-1 -----
-Version bump.
-
------ version 0.9.0-1 -----
+----- version 0.9.1-10 -----
 Initial release for Cygwin.
-Patched to fix deprecation warnings.
 
 
 Cygwin port maintained by:

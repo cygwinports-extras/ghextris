@@ -1,5 +1,5 @@
 category: Games Gnome
-requires: cygwin python python-gnome2 python-gnomecanvas2 python-gobject2 python-gtk2
+requires: python python-gnome2 python-gnomecanvas2 python-gobject2 python-gtk2
 sdesc: "GNOME hexagonal tetris game"
 ldesc: "Ghextris is a Python/Gnome reimplementation of the semi-free
 Xhextris by David Markley. The object of the game is basically the same

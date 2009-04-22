@@ -2,6 +2,8 @@ DESCRIPTION="Tetris variant with hexagonal blocks"
 HOMEPAGE="http://mjr.iki.fi/software/ghextris.html"
 SRC_URI="http://mjr.iki.fi/software/${P}-1.tar.gz"
 
+PATCH_URI="0.9.1-bindir.patch"
+
 src_compile() { :; }
 src_test() { :; }
 
